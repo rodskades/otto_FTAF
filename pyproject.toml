@@ -1,0 +1,21 @@
+[build-system]
+# These are the assumed default build requirements from pip:
+# https://pip.pypa.io/en/stable/reference/pip/#pep-517-and-518-support
+requires = ["setuptools>=43.0.0", "wheel", "numpy", "scipy", "sympy", "matplotlib"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "otto_FTAF"
+version = "0.0.2"
+authors = [
+  { name="Rodolpho Kades de Oliveira e Silva", email="rodolpho_kades@hotmail.com" },
+]
+description = "An Otto cycle solver"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
